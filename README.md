@@ -1,7 +1,7 @@
-# Azure Learner Sandbox
+# Azure Sandbox Provisioner
 
 ## Contents
-- [Azure Learner Sandbox](#azure-learner-sandbox)
+- [Azure Sandbox Provisioner](#azure-sandbox-provisioner)
   - [Contents](#contents)
   - [Structure](#structure)
     - [Billing](#billing)
