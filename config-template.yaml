@@ -1,0 +1,60 @@
+# Subscription Pool
+subscription_pool:
+  count: 0
+  subscription_prefix: LearnerSubscription
+
+# Cohorts
+cohorts:
+- name: Test Cohort 1
+  learners: 0
+  start_date: "2022-03-01T00:00:00Z"
+  end_date: "2022-04-01T00:00:00Z"
+  subscription_budget: 100
+  contact_emails: 
+  - harry.volker@and.digital
+  vm_sizes:
+    limit: true
+    allowed:
+    - "standard_b1s"
+    - "standard_b1ls"
+    - "standard_b1ms"
+    - "standard_b2s"
+
+- name: Test Cohort 2
+  learners: 0
+  start_date: "2022-03-01T00:00:00Z"
+  end_date: "2022-04-01T00:00:00Z"
+  subscription_budget: 100
+  contact_emails: 
+  - harry.volker@and.digital
+  vm_sizes:
+    limit: true
+    allowed:
+    - "standard_b1s"
+    - "standard_b1ls"
+    - "standard_b1ms"
+    - "standard_b2s"
+
+- name: Test Cohort 3
+  learners: 0
+  start_date: "2022-03-01T00:00:00Z"
+  end_date: "2022-04-01T00:00:00Z"
+  subscription_budget: 100
+  contact_emails: 
+  - harry.volker@and.digital
+  vm_sizes:
+    limit: true
+    allowed:
+    - "standard_b1s"
+    - "standard_b1ls"
+    - "standard_b1ms"
+    - "standard_b2s"
+
+# Role definitions
+role_definitions:
+- name: Default Learner
+  description: A default role definition for a learner.
+  actions:
+  - "Microsoft.Compute/*"
+  - "Microsoft.Network/*"
+  not_actions:

@@ -1,0 +1,2 @@
+variable names {}
+variable domain {}
